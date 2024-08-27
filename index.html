@@ -63,7 +63,7 @@
     <section class="flex items-center flex-col pb-24">
       <div><img src="./assets/banner.png" alt="" /></div>
       <div class="text-center flex flex-col items-center space-y-6">
-        <h1 class="font-bold w-11/12 sm:text-3xl md:w-4/5 lg:text-6xl">
+        <h1 class="font-bold w-11/12 sm:text-3xl md:w-4/5 lg:text-6xl m-4">
           A barn house of this design has a striking appearance
         </h1>
         <p class="w-10/12 text-sm lg:text-base">
@@ -78,61 +78,108 @@
     </section>
 
     <!-- Second Page Starting Here -->
-    <section class="bg-gray-100">
-      <!-- About Section Star -->
-      <section class="container mx-auto lg:flex justify-center">
-        <div class="lg:flex flex-col lg:my-[6.25rem]">
-          <div class="my-8 mx-5 text-center space-y-4">
-            <button class=""><i class="fa-solid fa-arrow-right"></i> About us</button>
-            <h1 class="lg:text-4xl font-bold">We design thoughtful,<br> liveable spaces</h1>
-            <p class="text-sm lg:text-base">
+    <section class="bg-gray-100 py-5 lg:py-24">
+      <!-- About Us Section Start -->
+      <div class="md:container px-5 md:px-10 mx-auto">
+        <div class="flex flex-col lg:flex-row gap-9 items-center text-center lg:text-left">
+          <!-- Text my-8 mx-5 text-center space-y-4-->
+          <div>
+            <img class="relative -top-5 -left-12 -rotate-10 hidden lg:flex" src="./assets/Vector.png" alt="">
+            <button class="font-bold btn bg-white px-5 rounded-full  text-sm mb-4"><i
+                class="fa-solid fa-arrow-right"></i> About us</button>
+            <h1 class="text-2xl font-bold text-center lg:text-left lg:text-5xl">We design thoughtful,<br> liveable
+              spaces
+            </h1>
+            <p class="mt-6 mb-6 text-base lg:text-base">
               The barn house captivates with its blend of rustic charm and
               modern sophistication, featuring weathered wood, sleek metal accents.
             </p>
-          </div>
-          <div>
-            <div class="flex">
-              <div><img src="./assets/commercial.png" alt=""></div>
-              <div>
-                <h1 class="text-lg font-bold">Commercial</h1>
-                <p>The barn house captivates with its blend <br> of rustic charm and modern.</p>
+            <!-- Cards -->
+            <div class="flex flex-col sm:flex-row lg:flex-col gap-5 lg:gap-10 text-left">
+              <!-- Card Commercial -->
+              <div class="flex items-center gap-5 p-5 bg-white rounded-xl">
+                <div>
+                  <img src="./assets/commercial.png" alt="">
+                </div>
+                <div>
+                  <h1 class="text-xl font-extrabold mb-5">Commercial</h1>
+                  <p class="text-sm md:text-base">The barn house captivates with its blend <br> of rustic charm and
+                    modern.</p>
+                </div>
+              </div>
+              <!-- Card Residential-->
+              <div class="flex items-center gap-5 p-5 bg-white rounded-xl">
+                <div>
+                  <img src="./assets/residential.png" alt="">
+                </div>
+                <div>
+                  <h1 class="text-xl font-extrabold mb-5">Residential</h1>
+                  <p class="text-sm md:text-base">The barn house captivates with its blend <br> of rustic charm and
+                    modern.</p>
+                </div>
               </div>
             </div>
-            <div class="flex">
-              <div><img src="./assets/residential.png" alt=""></div>
-              <div>
-                <h1 class="text-lg font-bold">Residential</h1>
-                <p>The barn house captivates with its blend <br> of rustic charm and modern.</p>
-              </div>
-            </div>
           </div>
-        </div>
-        <div>
+          <!-- Left Image -->
           <img src="./assets/Rectangle.png" alt="">
         </div>
-      </section>
 
-      <!-- How we work -->
-      <section class="flex flex-col items-center lg:py-[100px]">
+      </div>
+
+      <!-- Third page: How we work -->
+      <section class="container mt-8 lg:mt-6 px-4 mx-auto lg:px-10 flex flex-col items-center lg:py-28">
 
         <div class="text-center">
-          <button><i class="fa-solid fa-arrow-right"></i>How we works</button>
-          <h1 class="lg:text-4xl font-bold">Our Works Process</h1>
-          <p class="w-10/12 mx-auto">The barn house captivates with its blend of rustic charm
+          <button class="btn bg-white px-5 rounded-full font-bold text-sm mb-4 mx-auto"><i
+              class="fa-solid fa-arrow-right"></i>How we works</button>
+          <h1 class="lg:text-4xl font-bold mb-6">Our Works Process</h1>
+          <p class="w-10/12 mx-auto mb-6">The barn house captivates with its blend of rustic charm
             and modern
             sophistication,
             featuring weathered
             wood, sleek metal accents.</p>
         </div>
-
-        <div>
-          <div>
-            <h3></h3>
-            <p></p>
+        <!-- Cards -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12">
+          <!-- Card Concept -->
+          <div class="p-6 bg-pink-300 rounded-2xl w-72">
+            <img src="assets/concept.png" alt="">
+            <h3 class="font-bold text-lg">Concept</h3>
+            <p>The Barn house captivates with its blend of rustic charm and modern.</p>
+          </div>
+          <!-- Card Design Process-->
+          <div class="p-6 bg-yellow-300 rounded-2xl w-72">
+            <img src="assets/flow-chart.png" alt="">
+            <h3 class="font-bold text-lg">Concept</h3>
+            <p>The Barn house captivates with its blend of rustic charm and modern.</p>
+          </div>
+          <!-- Card Supervision-->
+          <div class="p-6 bg-green-300 rounded-2xl w-72">
+            <img src="./assets/vision.png" alt="">
+            <h3 class="font-bold text-lg">Concept</h3>
+            <p>The Barn house captivates with its blend of rustic charm and modern.</p>
+          </div>
+          <!-- Card Budget Planning -->
+          <div class="p-6 bg-blue-300 rounded-2xl w-72">
+            <img src="assets/budget-planning.png" alt="">
+            <h3 class="font-bold text-lg">Concept</h3>
+            <p>The Barn house captivates with its blend of rustic charm and modern.</p>
           </div>
         </div>
       </section>
-
+    </section>
+    <!-- Discuss Section Creation -->
+    <section class="bg-[url(./assets/bg.jpg)]">
+      <!-- Text Section -->
+      <div class="text-center">
+        <button class="btn bg-lime-200 px-4 rounded-full text-sm mb-4 mx-auto"><i
+            class="fa-solid fa-arrow-right"></i>Let’s Connect</button>
+        <h1 class="text-2xl lg:text-5xl font-bold mb-6 w-10/12 mx-auto">Let’s Discuss Next Project</h1>
+        <p class="w-10/12 mx-auto mb-6 text-sm lg:text-base ">The barn house captivates with its blend of rustic charm
+          and modern
+          sophistication, featuring weathered wood, sleek metal accents.</p>
+      </div>
+      <!-- From Section -->
     </section>
   </main>
 
