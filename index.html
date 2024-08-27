@@ -169,17 +169,36 @@
       </section>
     </section>
     <!-- Discuss Section Creation -->
-    <section class="bg-[url(./assets/bg.jpg)]">
+    <section class=" bg-[url(./assets/bg.jpg)] bg-no-repeat bg bg-cover">
       <!-- Text Section -->
-      <div class="text-center">
-        <button class="btn bg-lime-200 px-4 rounded-full text-sm mb-4 mx-auto"><i
-            class="fa-solid fa-arrow-right"></i>Let’s Connect</button>
-        <h1 class="text-2xl lg:text-5xl font-bold mb-6 w-10/12 mx-auto">Let’s Discuss Next Project</h1>
-        <p class="w-10/12 mx-auto mb-6 text-sm lg:text-base ">The barn house captivates with its blend of rustic charm
-          and modern
-          sophistication, featuring weathered wood, sleek metal accents.</p>
+      <div class="container mx-auto">
+        <div class="text-center">
+          <button class="btn bg-lime-200 px-4 rounded-full text-sm mb-4 mx-auto"><i
+              class="fa-solid fa-arrow-right"></i>Let’s Connect</button>
+          <h1 class="text-2xl lg:text-5xl font-bold mb-6 w-10/12 mx-auto">Let’s Discuss Next Project</h1>
+          <p class="w-10/12 mx-auto mb-6 text-sm lg:text-base ">The barn house captivates with its blend of rustic charm
+            and modern
+            sophistication, featuring weathered wood, sleek metal accents.</p>
+        </div>
+        <!-- From Section -->
+        <form class="space-y-5 mx-auto">
+          <div class="grid grid-cols-1 sm:grid-cols-2 w-full gap-5">
+            <input class="px-5 py-3 rounded-full border shadow-sm" type="text" placeholder="First Name*" required />
+            <input class="px-5 py-3 rounded-full border shadow-sm" type="text" placeholder="Last Name*" required />
+          </div>
+          <div class="grid grid-cols-1 sm:grid-cols-2 w-full gap-5">
+            <input class="px-5 py-3 rounded-full border shadow-sm" type="number" placeholder="Phone Number*" required />
+            <input class="px-5 py-3 rounded-full border shadow-sm" type="email" placeholder="Email Address*" required />
+          </div>
+          <textarea class="px-5 py-3 rounded-3xl border shadow-sm col-span-2 w-full" rows="7"
+            placeholder="Write your message here" name="message"></textarea>
+          <button type="submit" class="btn bg-lime-300 font-extrabold w-full rounded-full text-lg">
+            Send Mail
+            <i class="-rotate-45 bg-gray-900 text-white p-2 rounded-full fa-solid fa-arrow-right"></i>
+          </button>
+        </form>
       </div>
-      <!-- From Section -->
+
     </section>
   </main>
 
